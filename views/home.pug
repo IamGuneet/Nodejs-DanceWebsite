@@ -1,0 +1,27 @@
+extends base.pug
+
+block style 
+    style 
+         include ../static/style.css
+
+block content 
+    
+                         
+    section#intro 
+         | Welcome To Dance Academy
+
+    section#mission 
+          h2 Our Mission   
+          .container 
+            .box   Dance perfection #[img(src="./static/img1.jpg", alt=" img").img]
+              
+            .box  Your Style #[img(src="./static/img2.jpg", alt=" img").img]
+
+            .box  Professional Teachers #[img(src="./static/img3.png", alt=" img").img]
+
+
+    section#main
+          h2 Our Sponsors
+             .container 
+                img(src="./static/apple.png", alt="img").sponsorImg
+                img(src="./static/hp.png", alt="img").sponsorImg

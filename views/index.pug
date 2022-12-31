@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Home
+        link(rel="stylesheet", href="../static/style.css")
+    body    
+        nav#navbar.top 
+            ul 
+                li #[img(src="./static/logo.png", alt="logo").logo]
+                li #[a(href="/") Home]  
+                li #[a(href="/") About]  
+                li #[a(href="/") Services]  
+                li #[a(href="/") Contact Us]  
+                         
+        section#intro 
+         | Welcome To Dance Academy
+
+        section#mission 
+          h2 Our Mission   
+          .container 
+            .box   Dance perfection #[img(src="./static/img1.jpg", alt=" img").img]
+              
+            .box  Your Style #[img(src="./static/img2.jpg", alt=" img").img]
+
+            .box  Professional Teachers #[img(src="./static/img3.png", alt=" img").img]
+
+
+        section#main
+          h2 Our Sponsors
+             .container 
+                img(src="./static/apple.png", alt="img").sponsorImg
+                img(src="./static/hp.png", alt="img").sponsorImg
+        footer 
+         | Copyright @ 2022
+
+
+
+
+
+
+

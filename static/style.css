@@ -1,0 +1,102 @@
+*{  padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar{
+    margin: 0px;
+    background-color: black;
+    padding: 1rem;
+    
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: azure;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(111, 120, 120);
+    font-weight: bolder;
+} 
+
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    background-image: url("./static/dance.jpg");
+}   
+
+#main{
+    height: 320px;
+    background-color: rgba(15, 14, 14, 0.739);
+    text-align: center;
+    padding-top:15px ;
+
+}
+#mission{
+    padding-top: 20px;
+    text-align: center;
+    min-height: 300px;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+footer{
+    color: white;
+    height: 25px;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+}
+.img{
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.sponsorImg{
+    margin-top: 25px;
+    max-height: 200px;
+    border-radius: 50%;
+}
